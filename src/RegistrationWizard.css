@@ -1,0 +1,57 @@
+.container{
+    width: 360px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background:#fafafa;
+}
+.container h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.step-text{
+    text-align: center;
+    font-size: 14px;
+    color: grey;
+    margin-bottom: 15px;
+}
+input{
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid grey;
+    border-radius: 4px;
+    font-size: 14px;
+}
+button{
+    background-color:skyblue ;
+    color: white;
+    border-radius: 6px;
+    padding: 8px 12px;
+    margin: 10px 5px 0 0;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #357bd8;
+}
+button:disabled{
+    cursor: not-allowed;
+    background-color: #aaa ;
+}
+p{
+    margin: 2px 0;
+}
+p[style*="red"]{
+    font-size: 12px;
+}
+.success{
+    text-align: center;
+    margin-top: 50px;
+}
+.error{
+    color: red;
+    text-align: center;
+    margin-bottom: 10px;
+}
