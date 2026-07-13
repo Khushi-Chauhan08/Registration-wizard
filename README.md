@@ -9,3 +9,4 @@ This is a multi-step registration form built using React.
 - Success message after submission
 
 ## Live Website Link
+- https://khushi-chauhan08.github.io/Registration-wizard/
