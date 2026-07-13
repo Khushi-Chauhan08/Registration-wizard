@@ -32,7 +32,7 @@ const StepTwo = ({formData, setFormData, nextStep, prevStep}) => {
     }
     if(name === "confirmPassword"){
         if(value !== formData.password){
-          newErrors.confirmPassword = "Passwords don not match"
+          newErrors.confirmPassword = "Passwords do not match"
         }else{
             delete newErrors.confirmPassword;
         }
